@@ -1,0 +1,22 @@
+{
+    "name": "nettantra/laravel-wp", 
+  "description": "framework built in larabel and wordpress",
+    "keywords": [
+        "laravel-wordpress",
+        "laravelwp",
+        "wplaravel"
+    ],
+    "type":"laravel-wp-module",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
+    "extra":{"installer-name":"laravel-custome-wp"},
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sibabrat",
+            "email": "sibabrat111@gmail.com"
+        }
+    ]
+}
