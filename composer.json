@@ -6,8 +6,11 @@
         "laravelwp",
         "wplaravel"
     ],
+    "minimum-stability": "dev",
     "type":"laravel-wp-module",
-    "require": {"laravel/framework": "5.2.*"
+    "require": {
+          "php": ">=7.0.30",
+          "laravel/framework": "5.2.*"
     },
     "extra":{"installer-name":"laravel-custome-wp"},
     "license": "BSD-3-Clause",
@@ -15,7 +18,12 @@
         {
             "name": "Sibabrat",
             "email": "sibabrat111@gmail.com"
-        }
+        },
+     "autoload": {
+          "psr-0": {
+            "nettantra/laravel-wp": "src/"
+         }
+      }
     ]
 }
 
