@@ -6,7 +6,7 @@
         "laravelwp",
         "wplaravel"
     ],
-    "type":"package",
+    "type":"laravel-wp-module",
     "require": {
           "php": ">=7.0.30",
           "laravel/framework": "5.2.*"
@@ -29,4 +29,3 @@
   "minimum-stability": "dev"
     
 }
-
