@@ -1,6 +1,6 @@
 {
-    "name": "nettantra/laravel-wp", 
-  "description": "framework built in larabel and wordpress",
+    "name": "nettantra/laravel-wp", // vendor name / package name
+    "description": "framework built in larabel and wordpress",
     "keywords": [
         "laravel-wordpress",
         "laravelwp",
