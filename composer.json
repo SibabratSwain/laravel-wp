@@ -18,12 +18,14 @@
         {
             "name": "Sibabrat",
             "email": "sibabrat111@gmail.com"
-        },
+        }
+     ]
+   ,
      "autoload": {
           "psr-0": {
             "nettantra/laravel-wp": "src/"
          }
       }
-    ]
+    
 }
 
