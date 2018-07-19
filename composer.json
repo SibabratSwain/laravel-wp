@@ -1,19 +1,18 @@
 {
     "name": "nettantra/laravel-wp", 
-    "description": "framework built in larabel and wordpress",
+    "description": "framework built in laravel and wordpress",
     "keywords": [
         "laravel-wordpress",
         "laravelwp",
         "wplaravel"
     ],
-    "minimum-stability": "dev",
-    "type":"laravel-wp-module",
+    "type":"package",
     "require": {
           "php": ">=7.0.30",
           "laravel/framework": "5.2.*"
     },
     "extra":{"installer-name":"laravel-custome-wp"},
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sibabrat",
@@ -25,7 +24,9 @@
           "psr-0": {
             "nettantra/laravel-wp": "src/"
          }
-      }
+      },
+  "version": "1.0.0",
+  "minimum-stability": "dev"
     
 }
 
